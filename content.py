@@ -35,5 +35,5 @@ print(year_birth)
 person = {'name':'Milka','age':25}
 person['name'] = 'Dennis'                                       #change value 
 print(person['name'])                                           #accessing the values
-person.get('occupation',['teacher','farmer'])
+person['occupation'] = ['teacher','farmer']                     #add items
 print(person)
